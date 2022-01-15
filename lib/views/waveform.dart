@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:stroll/widgets/avatar.dart';
 import 'package:stroll/widgets/chatcontainer.dart';
 
 class WaveFormPage extends StatefulWidget {
@@ -14,9 +15,13 @@ class _WaveFormPageState extends State<WaveFormPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
+      body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.end,
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [ChatContainer()]),
+          children: const [ChatContainer(), Avatar()],
+        )
+      ]),
     );
   }
 }

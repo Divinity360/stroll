@@ -9,7 +9,7 @@ class ChatContainer extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Padding(
-      padding: const EdgeInsets.only(right: 23.0, left: 23, top: 15, bottom: 5),
+      padding: const EdgeInsets.only(right: 2.0, top: 15, bottom: 5),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
