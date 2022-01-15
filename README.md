@@ -1,6 +1,6 @@
-# stroll
+# Stroll
 
-A new Flutter project.
+Stroll Test Mobile application.
 
 ## Getting Started
 
@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## How to Run
+
+flutter run apk --release 
+
+## How to Build
+
+flutter build apk --release
+
